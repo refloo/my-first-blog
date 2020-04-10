@@ -1,0 +1,22 @@
+body{
+	background-image: url("https://wallpaper.spicy-sweet.com/wallpapers/iPadmini/star1_7681024_2.jpg");
+}
+
+.home{
+	text-decoration: none;
+	color: white;
+	font-size: 80px;
+	position: absolute;
+	top: 10px; right: 500px;
+	list-style: none;
+}
+
+.home:hover{
+	color: navy;
+}
+
+.merukari{
+	display: inline-block;
+	text-align: center;
+	position: absolute;
+}

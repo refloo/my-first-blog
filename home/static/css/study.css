@@ -1,0 +1,63 @@
+body{
+	/*background-image: url("../pictures/Rijksmuseum-library-Amsterdam-Netherlands_1920x1080.jpg");
+	background-size: cover;*/
+}
+
+a{
+	text-decoration: none;
+	color: red;
+	font-size: 40px;
+}
+
+li{
+	list-style: none;
+	font-size: 28px;
+	color: white;
+}
+
+.university_sub li{
+	color: green;
+}
+
+.first_part{
+	position: absolute;
+	top: 50px;	left: 120px;
+}
+
+.latter_half{
+	position: absolute;
+	top: 50px;	left: 300px;
+}
+
+.Done_sub{
+	position: absolute;
+	top: 50px;	left: 700px;
+}
+
+.Done_sub li{
+	color: orange;
+}
+
+.Touched_sub{
+	position: absolute;
+	top: 50px;  left: 1100px;
+}
+
+.Touched_sub li{
+	color: gray;
+}
+
+.Todo_sub{
+	position: absolute;
+	top: 50px;	left: 1500px;
+}
+
+.Todo_sub li{
+	color: navy;
+}
+
+.home{
+	position: absolute;
+	bottom: 100px;
+	right: 100px;
+}

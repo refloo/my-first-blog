@@ -1,0 +1,68 @@
+body{
+	background-image: url("../pictures/Devil_bridge_river_1920x1080.jpg");
+	background-size: cover;
+}
+
+.home{
+	text-decoration: none;
+	color: white;
+	font-size: 80px;
+	position: absolute;
+	top: 10px; left: 30px;
+	list-style: none;
+}
+
+.home:hover{
+	color: lime;
+}
+
+.other{
+	text-decoration: none;
+	color: white;
+	font-size: 80px;
+	position: absolute;
+	top: 70px; right: 50px;
+	list-style: none;
+}
+
+.m-world{
+	top: 50px;  right: 20px;
+	font-size: 60px;
+	text-decoration: none;
+	color: white;
+}
+
+.m-world:hover{
+	color: green;
+}
+
+.manuever{
+	top: 180px;  right: 20px;
+	font-size: 60px;
+	text-decoration: none;
+	color: white;
+}
+
+.manuever:hover{
+	color: green;
+}
+
+.Task_Magic{
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	top: 130px; left: 50px;
+}
+
+.Task_Technique{
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	top: 480px; left: 50px;
+}
+
+.theme{
+	font-size: 60px;
+}
