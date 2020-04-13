@@ -1,19 +1,37 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 <meta name='author' content=''><meta name='description' content=''>
 <meta name='keywords' content=''>
-<link rel='stylesheet' href='./css/mypagecss.css' type='text/css' />
 <title>Notitle</title>
+<a href="{% url 'update' %}">UPDATE</a>
 </head>
 <body>
 <div class='Rits_info'>
 <iframe src='https://www.jma.go.jp/jp/yoho/334.html' width='700px' height='565px'></iframe>
+<a class='home' href="{% url 'index' %}">Home</a>
 <div class='comic'><a href=https://tonarinoyj.jp/episode/13932016480028985383 target='_blank'>2020/04/04[第173話] ワンパンマン</a></div>
 <div class='rits'><a href=https://ct.ritsumei.ac.jp/ct/home target='_blank'>manaba+R</a></div>
-<h3 class='info1'>お知らせ「【民間財団奨学金募集案内】公益財団法人浦上奨学会　2018年7月西日本豪雨特別奨学生の2020年度募集について（ご案内）」が配信されました。</h3>
-<p class='detail1'>学部生の皆さまへ
+<h3 class='info1'>コンテンツ「第2回授業資料と課題」が追加されました。</h3>
+<p class='detail1'>トップページ
+第０２回：   「生物体の組織化」
+      細胞の発見、植物細胞／動物細胞、多細胞生物／単細胞生物
+  WEBによる授業で、レジメを見ただけではわからないことが多いと思われます。第１回講義と同様、対面授業ができるようになったら少し時間を割いて、第２回授業もフォローしたいと考えます。９０分で話すところを２０～３０分ぐらいに短縮しますので一から言葉の説明ができません。そのとき全く言葉がわからないため理解ができないということがないようにしてもらうために、以下２点について調べておいて下さい。
+  １つめは原核生物と真核生物の違いについて
+  ２つめは単細胞生物と多細胞生物の違いについて
+  人類は望遠鏡を使って宇宙や地球についていろいろなことを発見しました。また顕微鏡が発明されると、極めて小さいものにも関心を向け、細胞を発見しました。そして細胞が生物を構成する最小単位であることがわかってきました。生物は原核生物と真核生物に分けられ、真核生物の細胞は原核生物の細胞に比べて容積が１０００倍ぐらい大きく、機能的にも違う点が多くあります。原核生物は細菌のようにすべて１つの細胞のみで構成されておりますが(単細胞生物)、真核生物にはアメーバのような単細胞生物と、多くの細胞から構成される多細胞生物もいます。これらがごちゃごちゃにならないように頭の中で整理しておいて下さい。
+ 
+生物科学１レジメ（02回目）.ppt - 2020-04-12 10:54:53
+  2020-04-12 10:55 - 岡野 友信- 1.1版</p>
+<h3 class='info2'>コンテンツ「確率統計学」が追加されました。</h3>
+<p class='detail2'>確率統計学の基礎と応用
+  確率統計学
+200410確率統計.pdf - 2020-04-10 23:36:56
+  2020-04-10 23:37 - 杉本 末雄- 1.1版</p>
+<h3 class='info3'>お知らせ「【民間財団奨学金募集案内】公益財団法人浦上奨学会　2018年7月西日本豪雨特別奨学生の2020年度募集について（ご案内）」が配信されました。</h3>
+<p class='detail3'>学部生の皆さまへ
   奨学金ホームページですでにお知らせしておりますが、現在、以下の奨学金の募集を受け付けています。希望される方は出願してください。
 民間財団の浦上奨学会より、「2020年度　2018年７月西日本豪雨特別奨学生」の募集があり、学部生向けにmanaba＋Rにて配信をしています。
 ※なおこの案内は学部生すべての方に配信しています。ご了承ください。
@@ -46,8 +64,8 @@ http://www.ritsumei.ac.jp/scholarship/economic03.html/
 衣笠学生オフィス
 TEL：075-465-8168
 E-mail: ruscolar@st.ritsumei.ac.jp</p>
-<h3 class='info2'>お知らせ「【民間財団奨学金募集案内】　JEES日本語教育普及奨学金（検定）」が配信されました。</h3>
-<p class='detail2'>JEES日本語教育普及奨学金（検定）に合格された方へ
+<h3 class='info4'>お知らせ「【民間財団奨学金募集案内】　JEES日本語教育普及奨学金（検定）」が配信されました。</h3>
+<p class='detail4'>JEES日本語教育普及奨学金（検定）に合格された方へ
   奨学金ホームページですでにお知らせしておりますが、現在、以下の奨学金の募集を受け付けています。希望される方は出願してください。
 なお、このご案内は全ての方にお送りしております。ご了承ください。
   ●募集財団名
@@ -74,12 +92,12 @@ http://www.ritsumei.ac.jp/scholarship/economic03.html/
 衣笠学生オフィス
 TEL：075-465-8168
 E-mail: ruscolar@st.ritsumei.ac.jp</p>
-<h3 class='info3'>お知らせ「2021年度　春期出発交換留学　1次募集中止について」が配信されました。</h3>
-<p class='detail3'>学生の皆さんへ
+<h3 class='info5'>お知らせ「2021年度　春期出発交換留学　1次募集中止について」が配信されました。</h3>
+<p class='detail5'>学生の皆さんへ
 
 2021年度　春期出発交換留学の1次募集を５月下旬に予定しておりましたが、新型コロナウィルス感染症の蔓延に伴い、派遣先での教育、学習環境の安全が担保できない現状を考慮し、１次募集を中止いたします。９月下旬の2次募集につきましては、現在例年通り実施予定ですが、新型コロナウィルス感染症の収束状況を勘案し判断する必要がありますので、詳細につきましては、確認次第manaba+Rと海外留学ホームページにて告知いたします。また、２次募集の対象となる協定校につきましては、９月下旬の時点で手続き上、受け入れが可能である協定校に限定されますので、例年より学校数が減少する可能性があります。予めご理解くださいますようお願いいたします。</p>
-<h3 class='info4'>お知らせ「E) BBPでのアドバイジング/Advising desk at BBP」が配信されました。</h3>
-<p class='detail4'><English is below>
+<h3 class='info6'>お知らせ「E) BBPでのアドバイジング/Advising desk at BBP」が配信されました。</h3>
+<p class='detail6'><English is below>
 学生の皆さんへ
 
 こんにちは。国際教育センターです。
@@ -132,8 +150,8 @@ The date and method of your advising session will be arranged by the instructor 
 The title of your Email is "a request for intercultural advising at BKC".
 In your Email, please include ① your name, ② your college / school and year (e.g. second year undergraduate in the College of Information Science and Engineering), ③ your questions and concerns regarding studying abroad and intercultural issues on campus.
 The date and method of your advising session will be arranged by the instructor via Email.</p>
-<h3 class='info5'>お知らせ「【教職支援センター】大阪府公立学校教員採用試験選考テストに関する説明資料のご提供について」が配信されました。</h3>
-<p class='detail5'>教員採用試験の受験を予定されている皆さんへ
+<h3 class='info7'>お知らせ「【教職支援センター】大阪府公立学校教員採用試験選考テストに関する説明資料のご提供について」が配信されました。</h3>
+<p class='detail7'>教員採用試験の受験を予定されている皆さんへ
 
 教職支援センター主催の学内説明会について、
 全て中止となっておりますが、
@@ -148,8 +166,8 @@ The date and method of your advising session will be arranged by the instructor 
   大阪府公立学校教員採用試験選考テストに関する説明資料
 1-3setsumeishiryou.pdf - 2020-04-10 17:40:58
  </p>
-<h3 class='info6'>お知らせ「新歓活動のお知らせについてのご案内」が配信されました。</h3>
-<p class='detail6'>学生の皆さん
+<h3 class='info8'>お知らせ「新歓活動のお知らせについてのご案内」が配信されました。</h3>
+<p class='detail8'>学生の皆さん
 
 大学は、新型コロナウイルス感染拡大防止を目的として課外自主活動団体に、春学期オリエンテーション期における新入生勧誘活動の自粛を要請しました。
 学友会からの要請を受けて、大学では学友会中央事務局特別事業部が集約しました2020年度新歓期課外自主活動団体チラシをmanaba+R（以下、URL）に掲載する予定です。
@@ -175,8 +193,8 @@ https://cw.ritsumei.ac.jp/campusweb/SVA20D0.html?key=SUR20200402171145328100530
 〈申込確定結果発表〉
 4月14日（火）
 manaba＋Rおよび学内アドレスへメールにて通知します。</p>
-<h3 class='info7'>お知らせ「＜注意＞この案内が届いている方はCAMPUS WEBで「履修状況確認」を確認してください」が配信されました。</h3>
-<p class='detail7'>こちら理工学部事務室です。
+<h3 class='info9'>お知らせ「＜注意＞この案内が届いている方はCAMPUS WEBで「履修状況確認」を確認してください」が配信されました。</h3>
+<p class='detail9'>こちら理工学部事務室です。
 ＜注意＞この案内が届いている方はCAMPUS WEBで「履修状況確認」を確認してください
 
 この案内は、manaba+Rにて早期利用申請を行ったが、
@@ -193,8 +211,8 @@ manaba+Rの早期利用申請では受講登録が出来ません。
 ご確認の上、ご自身でご対応ください。
 
 以上</p>
-<h3 class='info8'>お知らせ「ピア・サポート団体、学部プロジェクト団体、その他大学が認めた団体のチラシ募集のお知らせ」が配信されました。</h3>
-<p class='detail8'>学生の皆さん
+<h3 class='info10'>お知らせ「ピア・サポート団体、学部プロジェクト団体、その他大学が認めた団体のチラシ募集のお知らせ」が配信されました。</h3>
+<p class='detail10'>学生の皆さん
 
 （本案内は、ピア・サポート団体、学部プロジェクト団体、その他大学が認めた団体の皆さんを対象とした内容となっています。）
 
@@ -213,8 +231,8 @@ manaba+Rの早期利用申請では受講登録が出来ません。
 ・個人情報の掲載
 →ただし団体のメールアドレスやSNSなどは可とします。
 ・公序良俗に反する内容</p>
-<h3 class='info9'>お知らせ「【正課外】【公開期間残り１ヵ月】無料オンライン公開講座/「SDGs表現論　プロジェクト・プラグマティズム・ジブンゴト」」が配信されました。</h3>
-<p class='detail9'>無料で学べるオンライン公開講座のご案内です。１回の視聴は約10分程度で、スマートフォンでも学習することが可能です。
+<h3 class='info11'>お知らせ「【正課外】【公開期間残り１ヵ月】無料オンライン公開講座/「SDGs表現論　プロジェクト・プラグマティズム・ジブンゴト」」が配信されました。</h3>
+<p class='detail11'>無料で学べるオンライン公開講座のご案内です。１回の視聴は約10分程度で、スマートフォンでも学習することが可能です。
 「SDGs表現論　プロジェクト・プラグマティズム・ジブンゴト」が間もなく閉講となります。この機会にぜひご受講ください。
   ■講座概要
 【講座名称】：「SDGs表現論　プロジェクト・プラグマティズム・ジブンゴト」
@@ -231,8 +249,8 @@ https://lms.gacco.org/courses/course-v1:gacco+ga143+2020_01/about
     ※本講座は正課外の講座であり、単位認定はおこなわれません。
   本件に関するお問合せ
 社会連携課　075-813-8247</p>
-<h3 class='info10'>お知らせ「【CLA講座】IELTSテスト対策講座Writing添削コースのみ開講します。」が配信されました。</h3>
-<p class='detail10'>---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---
+<h3 class='info12'>お知らせ「【CLA講座】IELTSテスト対策講座Writing添削コースのみ開講します。」が配信されました。</h3>
+<p class='detail12'>---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---*---
 今年度もCLA講座は、もっと『英語』を勉強したい皆さんを応援します！！
 が、新型コロナウィルスの影響拡大に伴い、春セメスターの対面授業講座は中止となりました。
 
@@ -264,8 +282,8 @@ http://www.ritsumei.ac.jp/gengo/cla/
    　Mail：gengocla@st.ritsumei.ac.jp  
    　HP：http://www.ritsumei.ac.jp/gengo/cla/
 ---------------------------------------------------------------</p>
-<h3 class='info11'>お知らせ「4月6〜7日のmanaba+Rの動作遅延について（お詫び）」が配信されました。</h3>
-<p class='detail11'>4月6〜7日のmanaba+Rの動作遅延について（お詫び）
+<h3 class='info13'>お知らせ「4月6〜7日のmanaba+Rの動作遅延について（お詫び）」が配信されました。</h3>
+<p class='detail13'>4月6〜7日のmanaba+Rの動作遅延について（お詫び）
 
 4月10日　立命館大学
 
@@ -274,8 +292,8 @@ http://www.ritsumei.ac.jp/gengo/cla/
 なお、４月6〜７日のmanaba+R の動作遅延の影響については成績評価等において不利益にならないよう配慮しますので、授業への出席や参加に支障のあった方は、授業再開後、担当教員にお知らせ下さい。
 
 以上</p>
-<h3 class='info12'>お知らせ「学生の皆様 立命館保健センターの閉室に関するお知らせ」が配信されました。</h3>
-<p class='detail12'>学生の皆様
+<h3 class='info14'>お知らせ「学生の皆様 立命館保健センターの閉室に関するお知らせ」が配信されました。</h3>
+<p class='detail14'>学生の皆様
 立命館保健センターの閉室に関するお知らせ
   新型インフルエンザ等対策特別措置法に基づく緊急事態宣言が発令され、立命館大学では皆さんの生命と安全、健康を守ると同時に、感染拡大防止の社会的責任を果たす必要があると考え、対象期間中のキャンパス内への入構を禁止する措置を実施しています。それに伴い保健センターも～5/6まで閉室となりますのでご理解ください。
   ★学生の皆さん
@@ -311,8 +329,8 @@ globalhc@st.ritsumei.ac.jp
 hokenask@st.ritumei.ac.jp
 返信に数日かかりますが、お問合せの受付をさせていただきます。
   立命館保健センター</p>
-<h3 class='info13'>お知らせ「2020年度正課外における奨学金・助成金の募集期間変更について」が配信されました。</h3>
-<p class='detail13'>課外活動に取り組み学生のみなさんへ
+<h3 class='info15'>お知らせ「2020年度正課外における奨学金・助成金の募集期間変更について」が配信されました。</h3>
+<p class='detail15'>課外活動に取り組み学生のみなさんへ
 
 新型コロナウイルス感染拡大における緊急事態宣言発令に伴い、「課外での成長を支援する奨学金・助成金」につき、募集または例年募集予定であったものの期間/期間変更を添付データのとおりご案内します。
 詳細は添付データを確認することと、以のHPを随時更新しますので、ご確認ください。
@@ -329,8 +347,8 @@ http://www.ritsumei.ac.jp/scholarship/grow.html/
 
 募集期間変更
 (奨学金)募集期間変更一覧について.pdf - 2020-04-10 13:10:54</p>
-<h3 class='info14'>お知らせ「【エクテン】（BKC）キャンパス内で受講可能な資格講座」が配信されました。</h3>
-<p class='detail14'>４月７日（火）に緊急事態宣言が発令され、それに伴い４月８日（水）から全キャンパス
+<h3 class='info16'>お知らせ「【エクテン】（BKC）キャンパス内で受講可能な資格講座」が配信されました。</h3>
+<p class='detail16'>４月７日（火）に緊急事態宣言が発令され、それに伴い４月８日（水）から全キャンパス
 入構禁止となり、不安に思っている方も多いと思います。
 このような状況にいる時こそ、近い将来、自分の強い味方になる資格について
 考えてみませんか？
@@ -412,8 +430,8 @@ http://www.ritsumei.ac.jp/extension/pamphlet/
 生協リンクショップ内エクステンションセンター資格講座窓口
 TEL：077-561-3493
 ////////////////////////////////////////////////////////////////////////////////////////////////////</p>
-<h3 class='info15'>お知らせ「4/4（土）～5/1（金）のキャンパス間シャトルバスの運休について」が配信されました。</h3>
-<p class='detail15'>学生・院生のみなさんへ
+<h3 class='info17'>お知らせ「4/4（土）～5/1（金）のキャンパス間シャトルバスの運休について」が配信されました。</h3>
+<p class='detail17'>学生・院生のみなさんへ
 
 緊急事態宣言を受けたキャンパス内への入構禁止措置（4/7）を受けて、
 4/20（月）～5/1（金）のキャンパス間シャトルバスは【全便運休】とします。
@@ -421,8 +439,8 @@ TEL：077-561-3493
 なお、5/7（木）以降の運行については、今後の状況を踏まえて改めてお知
 らせします。
 （以上）</p>
-<h3 class='info16'>お知らせ「E) 2020年度春学期受講登録の取り扱いについて / Handling of the Course Registration in Spring Semester AY2020」が配信されました。</h3>
-<p class='detail16'>学生の皆さんへ
+<h3 class='info18'>お知らせ「E) 2020年度春学期受講登録の取り扱いについて / Handling of the Course Registration in Spring Semester AY2020」が配信されました。</h3>
+<p class='detail18'>学生の皆さんへ
 2020年度春学期の受講登録についてご案内します。
 
 〇4月8日（本登録期間終了）までに登録を行った内容は有効なものとして取り扱います
@@ -446,8 +464,8 @@ We would like to inform you of the Course Registration of Spring Semester AY2020
 ・This opportunity is open for all students. Those who were not able to register during the period of Regular Course Registration for some reason will also be accepted during this period.
 ・You are not required to apply for this opportunity in order to register courses during this period. However, please be informed that some courses cannot be added or deleted depending on the decision of each College or Graduate School (For the relevant courses, we will notify via manaba+R by the beginning of the period of the course registration.).
 ・The details of the course registration in May will be informed on May 7.</p>
-<h3 class='info17'>お知らせ「【教職支援センター】教員採用試験願書記入説明資料のご提供について」が配信されました。</h3>
-<p class='detail17'>BKCで教職課程を履修されている皆さんへ
+<h3 class='info19'>お知らせ「【教職支援センター】教員採用試験願書記入説明資料のご提供について」が配信されました。</h3>
+<p class='detail19'>BKCで教職課程を履修されている皆さんへ
 
 2020年4月7日付で新型インフルエンザ等対策特別措置法に基づく緊急事態宣言が発令され、
 本学は学生の皆さんの入構を禁止させていただいています。
@@ -463,8 +481,8 @@ We would like to inform you of the Course Registration of Spring Semester AY2020
   【ＢＫＣ】教員採用試験願書記入説明資料
 2020年度　　教員採用試験願書記入ガイダンス.pdf - 2020-04-09 17:36:18
  </p>
-<h3 class='info18'>お知らせ「E)Handling of Final Examinations in Spring Semester AY2020」が配信されました。</h3>
-<p class='detail18'>Handling of Final Examinations in Spring Semester AY2020
+<h3 class='info20'>お知らせ「E)Handling of Final Examinations in Spring Semester AY2020」が配信されました。</h3>
+<p class='detail20'>Handling of Final Examinations in Spring Semester AY2020
 
  We are currently preparing to resume web-based classes from May 7 while monitoring the spread of novel coronavirus (COVID-19).
  We are planning to repurpose the late July period originally designated for final examinations for all Colleges, for use for special makeup classes. We will inform you of the resulting changes to grade evaluation and criteria in mid-May.
@@ -473,8 +491,8 @@ We would like to inform you of the Course Registration of Spring Semester AY2020
 In summary, final examinations for all Colleges will not be conducted; however, there is a possibility that examinations may be conducted in some Colleges/courses during the period of makeup classes (originally scheduled for final examinations), if the spread of COVID-19 takes a turn for the better.
 
 Going forward, we will keep you informed of the answers of our most frequently received questions and update you on the situation, policies and plans using this method. Therefore, please frequently check the updates on manaba+R during this class cancellation period.</p>
-<h3 class='info19'>お知らせ「Consultation Desk for Students at the Office of Student Affairs」が配信されました。</h3>
-<p class='detail19'>Consultation on various aspects of student life is available at the 
+<h3 class='info21'>お知らせ「Consultation Desk for Students at the Office of Student Affairs」が配信されました。</h3>
+<p class='detail21'>Consultation on various aspects of student life is available at the 
 following sections of the Office of Student Affairs. 
 Under the current declaration of State of Emergency by the government,
 the following consultation desks will open for student consultation
@@ -486,8 +504,8 @@ For further information, such as what types of support are available and how to 
 2）Disability Resource Center          http://www.ritsumei.ac.jp/drc/news/detail/?id=90
 
 3)  Student Support General Guide     http://www.ritsumei.ac.jp/drc/sougou/en/detail/</p>
-<h3 class='info21'>お知らせ「(教職) 2020年度 教職課程（春学期登録）科目の閉講について（お知らせ）」が配信されました。</h3>
-<p class='detail21'>教職課程を履修しているみなさん
+<h3 class='info23'>お知らせ「(教職) 2020年度 教職課程（春学期登録）科目の閉講について（お知らせ）」が配信されました。</h3>
+<p class='detail23'>教職課程を履修しているみなさん
   春学期本登録の結果、登録者数が過少の教職課程科目については、閉講となります。
 本登録期間後の受講登録ができませんので、注意してください。
 閉講科目は、下記URLから掲示を確認してください。
@@ -497,8 +515,8 @@ https://secure.ritsumei.ac.jp/students/kyoshoku/news/list_rishu.html/
 
   なお、閉講科目の追加が生じた場合には追って連絡します。
   以上</p>
-<h3 class='info22'>お知らせ「2020年度春学期定期試験の取り扱いについて」が配信されました。</h3>
-<p class='detail22'>2020年度春学期定期試験の取り扱いについて
+<h3 class='info24'>お知らせ「2020年度春学期定期試験の取り扱いについて」が配信されました。</h3>
+<p class='detail24'>2020年度春学期定期試験の取り扱いについて
 
 (1) 現在，本学では感染症拡大の状況を見極めつつ，5月7日からwebによる授業を再開にする準備を進めています。
 
@@ -511,8 +529,8 @@ https://secure.ritsumei.ac.jp/students/kyoshoku/news/list_rishu.html/
 問い合わせの多い点については今後もこのような形で皆さんに状況・方針・予定をお知らせしていきますので，一斉休講期間中もmanaba+Rを日常的に確認するようお願い致します。
 
 以上</p>
-<h3 class='info23'>お知らせ「(教職) 2020年度 回生別教職課程関連諸行事日程 正誤表の掲載について」が配信されました。</h3>
-<p class='detail23'>各　位
+<h3 class='info25'>お知らせ「(教職) 2020年度 回生別教職課程関連諸行事日程 正誤表の掲載について」が配信されました。</h3>
+<p class='detail25'>各　位
 
 本日、教職課程HP（http://www.ritsumei.ac.jp/kyoshoku/）に、
 2020年度 回生別教職課程関連諸行事日程 正誤表（衣笠・BKC・OIC）を掲載しました。
@@ -520,10 +538,10 @@ https://secure.ritsumei.ac.jp/students/kyoshoku/news/list_rishu.html/
 教職課程履修者は必ず確認してください。
 
 以上</p>
-<h3 class='info25'>コースニュース「緊急事態宣言を受けた休講について」が配信されました。</h3>
-<p class='detail25'></p>
-<h3 class='info27'>お知らせ「【中止連絡】外国語コミュニケーションルーム　英語サポートデスク　」が配信されました。</h3>
-<p class='detail27'>Beyond Borders　Plazaよりお知らせいたします。
+<h3 class='info27'>コースニュース「緊急事態宣言を受けた休講について」が配信されました。</h3>
+<p class='detail27'></p>
+<h3 class='info29'>お知らせ「【中止連絡】外国語コミュニケーションルーム　英語サポートデスク　」が配信されました。</h3>
+<p class='detail29'>Beyond Borders　Plazaよりお知らせいたします。
 
 4月7日に発令されました政府による「緊急事態宣言」発令を踏まえた措置により、
 授業が一斉休講となりました。外国語教員の業務が停止となるため
@@ -560,8 +578,8 @@ http://www.ritsumei.ac.jp/file.jsp?id=433104
 
 言語教育センター
 Beyond　Borders　Plaza</p>
-<h3 class='info28'>お知らせ「2020年度春学期「教職課程自主ゼミ」募集の延期について」が配信されました。</h3>
-<p class='detail28'>教職課程を履修中のみなさま
+<h3 class='info30'>お知らせ「2020年度春学期「教職課程自主ゼミ」募集の延期について」が配信されました。</h3>
+<p class='detail30'>教職課程を履修中のみなさま
 
 2020年度春学期の教職課程自主ゼミの募集について、
 2020 年4 月7 日付で新型インフルエンザ等対策特別措置法に基づく緊急事態宣言が発令され、
@@ -572,33 +590,6 @@ Beyond　Borders　Plaza</p>
 ご理解、ご了承いただきますようお願いします。
 
 教職教育課</p>
-<h3 class='info29'>お知らせ「緊急事態宣言発令下における学生相談のご案内（学生オフィス）」が配信されました。</h3>
-<p class='detail29'>学生オフィスでは、次の窓口で学生生活に関わるご相談を受け付けています。
-緊急事態宣言発令下においても、可能な範囲でご相談に対応することとします。
-相談の申し込み方法、対応方針については、各窓口のHPでご確認ください。
-
-１）学生サポートルーム                http://www.ritsumei.ac.jp/file.jsp?id=457805
-２）障害学生支援室                      http://www.ritsumei.ac.jp/drc/news/detail/?id=89
-３）Student Success Program 　 http://www.ritsumei.ac.jp/ssp/news/article.html/?id=102
-４）学生相談の総合案内               http://www.ritsumei.ac.jp/drc/sougou/detail/</p>
-<h3 class='info30'>お知らせ「【学生部】今、学生のみなさんに考えてほしいこと ～新型コロナウイルスの感染拡大による「緊急事態宣言」の発出を受けて～」が配信されました。</h3>
-<p class='detail30'>学生のみなさんへ
-
-こんにちは。学生オフィスです。
-昨日(4/7)、「緊急事態宣言」が発出されたことを受けて、本学として、
-大学キャンパスへの入構禁止措置、諸活動等の中⽌または延期ならび
-に学⽣等への外出⾃粛要請をさせていただきました。
-※詳細はhttp://www.ritsumei.ac.jp/news/detail/?id=1716をご覧ください。
-  　学生のみなさんには、大学に入構ができない期間、不要不急の外出
-を自粛されている期間において、健康面に注意を払うとともに、これ
-からも継続して、自覚をもった行動・姿勢を維持頂きたいと考えてい
-ます。
-添付PDFの「今、学生のみなさんに考えてほしいこと」をご一読い
-ただき、この期間を過ごすにあたり注意すべき点等について、ご確認
-頂ければ幸いです。
-
-今、学生のみなさんにお伝えしたいこと.pdf - 2020-04-08 12:40:48
- 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　学生オフィス</p>
 
 </div>
 </body>

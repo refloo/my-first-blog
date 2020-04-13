@@ -1,18 +1,19 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 	<meta name='author' content=''><meta name='description' content=''>
 	<meta name='keywords' content=''>
-	<link rel='stylesheet' href='./css/home.css' type='text/css' />
+	<link rel='stylesheet' href="{% static 'css/home.css' %}">
 	<title>Home</title>
 </head>
 <body>
 	<div class='home'>
-		<a class='day' href='./testes.html'>The Day</a>
-		<a class='study' href='./study.html'>Study Experience</a>
-		<a class='magic' href='./magic.html'>Real Magic World</a>
-		<a class='buy' href='./wish_list.html'>Wish List</a>
+		<a class='day' href="{% url 'day' %}">The Day</a>
+		<a class='study' href="{% url 'study' %}">Study Experience</a>
+		<a class='magic' href="{% url 'magic' %}">Real Magic World</a>
+		<a class='buy' href="{% url 'buy' %}">Wish List</a>
 		<span></span>
 	</div>
 </body>

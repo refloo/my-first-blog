@@ -1,0 +1,423 @@
+p{
+	width:750px; /*height:670px;*/
+	font-size:22px;
+	position: fixed; top: 100px; left:1065px;
+	background-color: rgba( 204, 255, 204, 0.55 );
+}
+
+/*.alpha{
+	width:780px; height:710px;
+	position: fixed; top: 150px; left:1050px;
+	background-color: rgba( 0, 48, 255, 0.4 );
+}
+
+.beta{
+	width:750px; height:670px;
+	position: fixed; top: 168px; left:1065px;
+	background-color: rgba( 255, 255, 255 );
+}*/
+
+.comic{
+	position: absolute; top:30px; right:250px;
+	font-size:24px;
+}
+
+.rits{
+	position: absolute; top:70px; right:250px;
+	font-size:24px;
+}
+
+h3{
+	width:1000px;
+	background-color: rgba( 0, 242, 255, 0.55 );
+}
+
+.detail1{
+ display: none;
+}
+
+.info1:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info1:hover + .detail1{
+ display: block;
+}
+
+.detail2{
+ display: none;
+}
+
+.info2:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info2:hover + .detail2{
+ display: block;
+}
+
+.detail3{
+ display: none;
+}
+
+.info3:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info3:hover + .detail3{
+ display: block;
+}
+
+.detail4{
+ display: none;
+}
+
+.info4:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info4:hover + .detail4{
+ display: block;
+}
+
+.detail5{
+ display: none;
+}
+
+.info5:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info5:hover + .detail5{
+ display: block;
+}
+
+.detail6{
+ display: none;
+}
+
+.info6:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info6:hover + .detail6{
+ display: block;
+}
+
+.detail7{
+ display: none;
+}
+
+.info7:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info7:hover + .detail7{
+ display: block;
+}
+
+.detail8{
+ display: none;
+}
+
+.info8:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info8:hover + .detail8{
+ display: block;
+}
+
+.detail9{
+ display: none;
+}
+
+.info9:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info9:hover + .detail9{
+ display: block;
+}
+
+.detail10{
+ display: none;
+}
+
+.info10:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info10:hover + .detail10{
+ display: block;
+}
+
+.detail11{
+ display: none;
+}
+
+.info11:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info11:hover + .detail11{
+ display: block;
+}
+
+.detail12{
+ display: none;
+}
+
+.info12:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info12:hover + .detail12{
+ display: block;
+}
+
+.detail13{
+ display: none;
+}
+
+.info13:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info13:hover + .detail13{
+ display: block;
+}
+
+.detail14{
+ display: none;
+}
+
+.info14:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info14:hover + .detail14{
+ display: block;
+}
+
+.detail15{
+ display: none;
+}
+
+.info15:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info15:hover + .detail15{
+ display: block;
+}
+
+.detail16{
+ display: none;
+}
+
+.info16:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info16:hover + .detail16{
+ display: block;
+}
+
+.detail17{
+ display: none;
+}
+
+.info17:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info17:hover + .detail17{
+ display: block;
+}
+
+.detail18{
+ display: none;
+}
+
+.info18:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info18:hover + .detail18{
+ display: block;
+}
+
+.detail19{
+ display: none;
+}
+
+.info19:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info19:hover + .detail19{
+ display: block;
+}
+
+.detail20{
+ display: none;
+}
+
+.info20:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info20:hover + .detail20{
+ display: block;
+}
+
+.detail21{
+ display: none;
+}
+
+.info21:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info21:hover + .detail21{
+ display: block;
+}
+
+.detail22{
+ display: none;
+}
+
+.info22:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info22:hover + .detail22{
+ display: block;
+}
+
+.detail23{
+ display: none;
+}
+
+.info23:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info23:hover + .detail23{
+ display: block;
+}
+
+.detail24{
+ display: none;
+}
+
+.info24:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info24:hover + .detail24{
+ display: block;
+}
+
+.detail25{
+ display: none;
+}
+
+.info25:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info25:hover + .detail25{
+ display: block;
+}
+
+.detail26{
+ display: none;
+}
+
+.info26:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info26:hover + .detail26{
+ display: block;
+}
+
+.detail27{
+ display: none;
+}
+
+.info27:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info27:hover + .detail27{
+ display: block;
+}
+
+.detail28{
+ display: none;
+}
+
+.info28:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info28:hover + .detail28{
+ display: block;
+}
+
+.detail29{
+ display: none;
+}
+
+.info29:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info29:hover + .detail29{
+ display: block;
+}
+
+.detail30{
+ display: none;
+}
+
+.info30:hover{
+ color:red;
+ background-color: rgba( 0, 200, 250, 0.55 );
+}
+
+.info30:hover + .detail30{
+ display: block;
+}

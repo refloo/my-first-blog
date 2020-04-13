@@ -1,14 +1,15 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 	<meta name='author' content=''><meta name='description' content=''>
 	<meta name='keywords' content=''>
-	<link rel='stylesheet' href='./css/magic.css' type='text/css' />
+	<link rel='stylesheet' href="{% static 'css/magic.css' %}" type='text/css' />
 	<title>Magic</title>
 </head>
 <body>
-	<a class='home' href='./home.html'>Home</a>
+	<a class='home' href="{% url 'index' %}">Home</a>
 	<div class='Task_Magic'>
 		<a class='theme'>Magic</a>
 		<li>Laser Deal 75%</li>

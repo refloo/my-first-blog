@@ -1,105 +1,98 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 <meta name='author' content=''><meta name='description' content=''>
 <meta name='keywords' content=''>
-<link rel='stylesheet' href='./css/wish_list.css' type='text/css' />
+<link rel='stylesheet' href="{% static 'css/wish_list.css' %}" type='text/css' />
 <title>Wish List</title>
 </head>
 <body>
-<a class='home' href='./home.html'>Home</a>
+<a href="{% url 'merukari' %}">list up</a>
+<a class='home' href="{% url 'index' %}">Home</a>
 <div class='merukari'>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m74679006036_1.jpg?1585494013'>
-<p>マスター・プッシュオフ 日本語字幕付き DVD アンディ・グラッドウィン</p>
-<p>¥4,000</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m66087182676_1.jpg?1529564038'>
-<p>2018★二枚組DAVID GUETTAベスト★DAVID GUETTA</p>
-<p>¥1,800</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m62664186636_1.jpg?1584436106'>
-<p>マジックレクチャーDVD『スカルダガリ』と「エモーショナル・インテリジェンス』</p>
-<p>¥7,000</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m17777656562_1.jpg?1583966038'>
-<p>エモーショナル・インテリジェンス＜日本語字幕＞新品未開封　ルーク・ジャメイ</p>
-<p>¥3,400</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m43625972895_1.jpg?1586429038'>
-<p>エモーショナル・インテリジェンス と スカルダガリ セット品 ルーク・ジャーメイ</p>
-<p>¥7,800</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m12119508709_1.jpg?1571303337'>
-<p>VAMPS LIVE 2014 LONDON Blu-ray 通常盤A</p>
-<p>¥2,000</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m59601574219_1.jpg?1586414061'>
-<p>[マジック]ジャーメイズ・マインド2 日本語字幕版</p>
-<p>¥3,700</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m42646693697_1.jpg?1585235436'>
-<p>メンタルマジック ジャーメイズ マインド</p>
-<p>¥7,000</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m70260731674_1.jpg?1573945658'>
-<p>VAMPS/VAMPS LIVE 2012通常盤　新品未開封</p>
-<p>¥1,300</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m74672870184_1.jpg?1547370303'>
-<p>REAL DECK SWITCHES by Benjamin Earl</p>
-<p>¥2,499</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m51674951412_1.jpg?1568011290'>
-<p>VAMPS DVD 特別映像収録 　VAMPS LIVE 2012 [通常盤]</p>
-<p>¥1,800</p>
 <img src='https://static.mercdn.net/c!/w=240/thumb/photos/m11627250863_1.jpg?1490783485'>
 <p>『VAMPS LIVE 2010 WORLD TOUR CHILE』ライブDVD</p>
 <p>¥4,500</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m74158653446_1.jpg?1570888520'>
-<p>VAMPS LIVE 2014-2015 Blu-ray 初回限定盤</p>
-<p>¥4,000</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m55171034001_1.jpg?1586410742'>
-<p>ジャーメイズ・マインド　第1巻 日本語字幕</p>
-<p>¥6,000</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m76441962926_1.jpg?1513963996'>
-<p>インスクリュータブルレッド</p>
-<p>¥5,000</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m87225094106_1.jpg?1569941519'>
-<p>マジックDVD3枚セット</p>
-<p>¥3,222</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m25621535329_1.jpg?1557042172'>
-<p>インスクリュータブル：ブルー DVD 日本語字幕版</p>
-<p>¥3,700</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m74691416979_1.jpg?1575935775'>
-<p>ジャーメイズ・マインド第3巻 DVD 日本語字幕版</p>
-<p>¥4,300</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m92322233422_1.jpg?1550935657'>
-<p>ケ・ラロ 日本語字幕 DVD</p>
-<p>¥5,400</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m37050316971_1.jpg?1585828261'>
-<p>スキン SKIN Benjamin Earl 日本語字幕付きDVD</p>
-<p>¥2,700</p>
 <img src='https://static.mercdn.net/c!/w=240/thumb/photos/m53685675520_1.jpg?1584151181'>
 <p>エモーショナル・インテリジェンス 日本語字幕版マジック学習 [DVD]</p>
 <p>¥3,600</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m92322233422_1.jpg?1550935657'>
+<p>ケ・ラロ 日本語字幕 DVD</p>
+<p>¥5,400</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m62664186636_1.jpg?1584436106'>
+<p>マジックレクチャーDVD『スカルダガリ』と「エモーショナル・インテリジェンス』</p>
+<p>¥7,000</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m59601574219_1.jpg?1586414061'>
+<p>[マジック]ジャーメイズ・マインド2 日本語字幕版</p>
+<p>¥3,700</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m87952906287_1.jpg?1586527942'>
+<p>ベンジャミンアール スキン SKIN</p>
+<p>¥5,000</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m51674951412_1.jpg?1568011290'>
+<p>VAMPS DVD 特別映像収録 　VAMPS LIVE 2012 [通常盤]</p>
+<p>¥1,800</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m37050316971_1.jpg?1586530335'>
+<p>スキン SKIN Benjamin Earl 日本語字幕付きDVD</p>
+<p>¥2,480</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m70260731674_1.jpg?1573945658'>
+<p>VAMPS/VAMPS LIVE 2012通常盤　新品未開封</p>
+<p>¥1,300</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m79168906655_1.jpg?1581868175'>
+<p>インスクリュータブル ブルー 字幕つき</p>
+<p>¥2,000</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m25615553944_1.jpg?1583569438'>
+<p>ザ、プレイステーション2 ゲーム雑誌</p>
+<p>¥900</p>
 <img src='https://static.mercdn.net/c!/w=240/thumb/photos/m96254949018_1.jpg?1524546145'>
 <p>VAMPS LIVE 2010 WORLD TOUR CHILE [DVD]</p>
 <p>¥1,500</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m51998790049_1.jpg?1583892012'>
-<p>くもり、ときどきミートボール</p>
-<p>¥720</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m79168906655_1.jpg?1581868175'>
-<p>インスクリュータブル ブルー 字幕つき</p>
-<p>¥2,111</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m86690977970_1.jpg?1568657671'>
-<p>DVD VAMPS LIVE 2014:LONDON [ 通常盤A ] 未開封</p>
-<p>¥3,300</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m52001357313_1.jpg?1586430152'>
-<p>スキン by ベンジャミン・アール</p>
-<p>¥5,800</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m74672870184_1.jpg?1547370303'>
+<p>REAL DECK SWITCHES by Benjamin Earl</p>
+<p>¥2,499</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m74158653446_1.jpg?1570888520'>
+<p>VAMPS LIVE 2014-2015 Blu-ray 初回限定盤</p>
+<p>¥4,000</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m74691416979_1.jpg?1575935775'>
+<p>ジャーメイズ・マインド第3巻 DVD 日本語字幕版</p>
+<p>¥4,300</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m74679006036_1.jpg?1585494013'>
+<p>マスター・プッシュオフ 日本語字幕付き DVD アンディ・グラッドウィン</p>
+<p>¥4,000</p>
 <img src='https://static.mercdn.net/c!/w=240/thumb/photos/m23688398127_1.jpg?1583857262'>
 <p>エモーショナル・インテリジェンス　日本語字幕版</p>
 <p>¥3,800</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m88761328196_1.jpg?1586437877'>
-<p>インスクリュータブル　レッド/ マジックDVD</p>
-<p>¥2,500</p>
-<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m81880004826_1.jpg?1586448044'>
-<p>ジョセフバリー氏　インスクリュータブルレッド</p>
-<p>¥2,500</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m66087182676_1.jpg?1529564038'>
+<p>2018★二枚組DAVID GUETTAベスト★DAVID GUETTA</p>
+<p>¥1,800</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m42646693697_1.jpg?1585235436'>
+<p>メンタルマジック ジャーメイズ マインド</p>
+<p>¥7,000</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m86690977970_1.jpg?1568657671'>
+<p>DVD VAMPS LIVE 2014:LONDON [ 通常盤A ] 未開封</p>
+<p>¥3,300</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m51998790049_1.jpg?1583892012'>
+<p>くもり、ときどきミートボール</p>
+<p>¥720</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m17777656562_1.jpg?1583966038'>
+<p>エモーショナル・インテリジェンス＜日本語字幕＞新品未開封　ルーク・ジャメイ</p>
+<p>¥3,400</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m52001357313_1.jpg?1586430152'>
+<p>スキン by ベンジャミン・アール</p>
+<p>¥5,800</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m87225094106_1.jpg?1569941519'>
+<p>マジックDVD3枚セット</p>
+<p>¥3,222</p>
 <img src='https://static.mercdn.net/c!/w=240/thumb/photos/m99985740394_1.jpg?1504141614'>
 <p>VAMPS LIVE 2012</p>
 <p>¥3,330</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m12119508709_1.jpg?1571303337'>
+<p>VAMPS LIVE 2014 LONDON Blu-ray 通常盤A</p>
+<p>¥2,000</p>
+<img src='https://static.mercdn.net/c!/w=240/thumb/photos/m43625972895_1.jpg?1586429038'>
+<p>エモーショナル・インテリジェンス と スカルダガリ セット品 ルーク・ジャーメイ</p>
+<p>¥7,800</p>
 </div>
 </body>
 </html>
